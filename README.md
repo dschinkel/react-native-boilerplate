@@ -120,7 +120,7 @@ In a new terminal window, run:
 yarn ios
 ```
 
-*Note: This will attempt to launch the iOS Simulator.*
+*Note: This will attempt to launch the iOS Simulator. Ensure you have added at least one platform at the buttom in the Components tab in XCode Settings*
 
 ![iOS Simulator Setup](assets/images/ios-simulator-setup.png)
 
