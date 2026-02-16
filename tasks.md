@@ -9,3 +9,9 @@ F.0.1 Create React Native App that renders "Hello World"
 - [x] Fix invalid path error for xcode-select in README
 - [x] Add troubleshooting for missing iOS simulators in README
 - [x] Push repository to GitHub
+
+## PR.0 Fix [COMPLETED]
+### Use testID instead of text in UI tests
+The Fix:
+- [x] Add testID to "Hello World" Text component
+- [x] Update test to use getByTestId
