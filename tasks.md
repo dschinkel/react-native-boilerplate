@@ -8,3 +8,4 @@ F.0.1 Create React Native App that renders "Hello World"
 - [x] Add Xcode installation/configuration script to README
 - [x] Fix invalid path error for xcode-select in README
 - [x] Add troubleshooting for missing iOS simulators in README
+- [x] Push repository to GitHub
