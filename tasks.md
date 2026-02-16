@@ -15,3 +15,9 @@ F.0.1 Create React Native App that renders "Hello World"
 The Fix:
 - [x] Add testID to "Hello World" Text component
 - [x] Update test to use getByTestId
+
+## Documentation [COMPLETED]
+### Add iOS simulator setup image
+- [x] Create assets/images directory
+- [x] Save provided screenshot to assets/images
+- [x] Embed image in README below iOS launch instructions

@@ -122,6 +122,10 @@ yarn ios
 
 *Note: This will attempt to launch the iOS Simulator.*
 
+![iOS Simulator Setup](assets/images/ios-simulator-setup.png)
+
+
+
 ### Run on Android
 
 In a new terminal window, run:
