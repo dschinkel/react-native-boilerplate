@@ -27,21 +27,10 @@ Why this is a "Force Multiplier" for your workflow:
 
 **The "Seeding" Benefit**: Since you use a repo to seed new apps, having this AGENTS.md in your boilerplate ensures that every new project inherits these exact quality controls. You won't have to set up Junie's project settings every single time; it will "discover" these rules automatically.
 
-## @ Mentions
-Whenever you want to tell Junie or a tool to look at a file use `@` so that it prioritizes it over other files. e.g. `please read @GUIDELINES.md`
-It tells the agent's Context Loader to fetch that file every single time a new task starts
 
-How to use them in JetBrains/Junie:
-Open the Junie chat.
-
-Type `@`.
-
-Select your `PROJECT_SPEC.md`.
-
-Type your request.
 
 ### How your app is bootstrapped automatically
-- Junie (in Brave mode) or Codex will read AGENTS.md, see that it's a new project without the Tailwind config, and say: "I noticed the project isn't initialized. I'm running the sync script first."
+- Junie (in Brave mode) or Codex or whatever tool you use will read AGENTS.md, see that it's a new project without the Tailwind config, and say: "I noticed the project isn't initialized. I'm running the sync script first."
 - `react-native-boilerplate` repo contains a shell script that utilizes uses rsync, which is the industry standard for "smart" merging
 - After we use the bootstrapped code in a new app, whenever we want to update the bootstrap (make react-app-boilerplate smarter or provide more), by having the `init.sh` script in `react-app-boilerplate`'s AGENTS.md rule, you can just tell the agent: "Update the boilerplate in this project," and it will run the sync script, bringing in only the new improvements while leaving your app code untouched
 - By keeping the AGENTS.md updated, you ensure that Junie (in Brave mode) or Codex knows it has the green light to run this script whenever it detects the project is uninitialized
@@ -56,6 +45,19 @@ The `rsync -au` flag ensures that if you’ve already started customizing the co
 - Context Loading: When you start a new session, Junie reads AGENTS.md. It sees the @ mentions and immediately pulls those three files into its "active memory."
 - Conflict Resolution: If Junie suggests a "clever" solution that violates your GUIDELINES.md, you can simply say, "Check the guidelines again," and it will correct itself because you've explicitly defined that file as the manual.
 - Task Discipline: By making tasks.md a "Mandatory Log," Junie will stop trying to do 5 things at once and stay focused on the specific task you’ve assigned in your iterative loop.
+
+#### @ Mentions
+Whenever you want to tell Junie or a tool to look at a file use `@` so that it prioritizes it over other files. e.g. `please read @GUIDELINES.md`
+It tells the agent's Context Loader to fetch that file every single time a new task starts
+
+How to use them in JetBrains/Junie:
+Open the Junie chat.
+
+Type `@`.
+
+Select your `PROJECT_SPEC.md`.
+
+Type your request.
 
 # Starting the Hello World Emulator
 ## Prerequisites
