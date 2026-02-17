@@ -11,7 +11,9 @@ Result: Your boilerplate is synced, yarn is finished, and a private GitHub repo 
 
 ## Benefits to using this repo
 **Atomic Logic**: It links your manual tasks.md workflow to the agent's automated behavior.
+
 **Tool-Agnostic**: Whether you use Junie, Codex, or a future CLI tool, they will all follow the same "Bootstrap -> Code -> Sync" loop.
+
 **Zero-Friction**: You can now open a brand new folder, ask the agent to build a specific component, and the agent will handle the boilerplate, the dependencies, and the GitHub repo creation as its very first set of actions.
 
 ## AGENTS.md
