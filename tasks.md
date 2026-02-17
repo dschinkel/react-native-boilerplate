@@ -15,3 +15,8 @@ F.0.1 Create React Native App that renders "Hello World"
 The Fix:
 - [x] Add testID to "Hello World" Text component
 - [x] Update test to use getByTestId
+
+## PR.0.1 Refactor App.tsx to functional components [IN PROGRESS]
+- [x] Re-read GUIDELINES.MD AND PROJECT_SPEC.MD
+- [ ] Convert class components to functional components
+- [ ] Verify with tests

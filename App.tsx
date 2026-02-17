@@ -11,15 +11,15 @@ const styles = StyleSheet.create({
 
 
 const App = () => {
-  return <Header/>
+  return <Greeting />;
 };
 
-class Header extends React.Component {
-  render() {
-    return <SafeAreaView style={styles.container}>
+const Greeting = () => {
+  return (
+    <SafeAreaView style={styles.container}>
       <Text testID="greeting">Hello World</Text>
-    </SafeAreaView>;
-  }
-}
+    </SafeAreaView>
+  );
+};
 
 export default App;
