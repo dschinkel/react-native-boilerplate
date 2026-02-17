@@ -1,0 +1,17 @@
+PLAN:
+## PR.0.1 Refactor App.tsx to Functional Components
+
+1. **Initialize Task**
+   - Re-read GUIDELINES.MD AND PROJECT_SPEC.MD ✓
+   - Move task to [IN PROGRESS] in `tasks.md` ✓
+
+2. **Refactor Component Layer (TDD)**
+   - **RED**: Verify existing test `shows a hello world greeting` in `__tests__/App.test.tsx` passes with current class implementation. ✓
+   - **GREEN**: Convert `Header` class component to a functional component in `App.tsx`. ✓
+   - **REFACTOR**: Rename `Header` to `Greeting` (more domain-oriented, avoids generic naming) and ensure it's a humble view. ✓
+
+3. **Verification & Finalization**
+   - Run all tests `yarn test` one last time.
+   - Run linter `yarn lint`.
+   - Update `tasks.md` to [COMPLETED].
+   - Final cleanup commit and push.

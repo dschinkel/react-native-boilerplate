@@ -16,7 +16,7 @@ The Fix:
 - [x] Add testID to "Hello World" Text component
 - [x] Update test to use getByTestId
 
-## PR.0.1 Refactor App.tsx to functional components [IN PROGRESS]
+## PR.0.1 Refactor App.tsx to functional components [COMPLETED]
 - [x] Re-read GUIDELINES.MD AND PROJECT_SPEC.MD
-- [ ] Convert class components to functional components
-- [ ] Verify with tests
+- [x] Convert class components to functional components
+- [x] Verify with tests
